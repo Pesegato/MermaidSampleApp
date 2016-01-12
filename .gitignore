@@ -61,3 +61,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+build/built-jar.properties
+*.dll
+nbproject/private/private.properties
+nbproject/private/private.xml

@@ -1,0 +1,86 @@
+<catalog>
+<com.pesegato.goldmonkey.DataBuilder id="FontA">
+  <String value="Fontin.fnt"/>
+  <Int value="24"/>
+</com.pesegato.goldmonkey.DataBuilder>
+<com.pesegato.goldmonkey.ColorBuilder id="ColorA">
+  <Red value="0"/>
+  <Green value="0"/>
+  <Blue value="255"/>
+  <Alpha value="255"/>
+</com.pesegato.goldmonkey.ColorBuilder>
+<com.pesegato.goldmonkey.ColorBuilder id="ColorB">
+  <Red value="173"/>
+  <Green value="173"/>
+  <Blue value="255"/>
+  <Alpha value="255"/>
+</com.pesegato.goldmonkey.ColorBuilder>
+<com.pesegato.goldmonkey.ColorBuilder id="ColorC">
+  <Red value="255"/>
+  <Green value="255"/>
+  <Blue value="255"/>
+  <Alpha value="255"/>
+</com.pesegato.goldmonkey.ColorBuilder>
+<com.pesegato.goldmonkey.WallButtonBuilder id="butPlay">
+  <Text value="Play"/>
+  <PosX value="-6"/>
+  <PosY value="1"/>
+  <Action value="mygame.ActionPrint"/>
+</com.pesegato.goldmonkey.WallButtonBuilder>
+<com.pesegato.goldmonkey.WallButtonBuilder id="butCG">
+  <Text value="Hide"/>
+  <PosX value="-6"/>
+  <PosY value="-3"/>
+  <Action value="mygame.ActionCG"/>
+</com.pesegato.goldmonkey.WallButtonBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="comingsoon">
+  <Class value="Label"/>
+  <Text value="Hopefully coming soon"/>
+  <PosX value="0"/>
+  <PosY value="-1"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="enablecomic">
+  <Class value="Checkbox"/>
+  <Text value="Checkbox option"/>
+  <PosX value="0"/>
+  <PosY value="-1"/>
+  <Bean value="enable_comic"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="soundvolume">
+  <Class value="Slider"/>
+  <Text value="Sound volume"/>
+  <PosX value="0"/>
+  <PosY value="-1"/>
+  <Min value="0"/>
+  <Max value="10"/>
+  <Step value="0.1"/>
+  <Bean value="sound_volume"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="gamediff">
+  <Class value="Dropdown"/>
+  <Text value="Game difficulty"/>
+  <PosX value="0"/>
+  <PosY value="-1"/>
+  <Bean value="game_difficulty"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="video">
+  <Class value="Panel"/>
+  <Child value="enablecomic"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="game">
+  <Class value="Panel"/>
+  <Child value="gamediff"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="input">
+  <Class value="Panel"/>
+  <Child value="comingsoon"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="sound">
+  <Class value="Panel"/>
+  <Child value="soundvolume"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+<com.pesegato.goldmonkey.MermaidBuilder id="other">
+  <Class value="Panel"/>
+  <Child value="comingsoon"/>
+</com.pesegato.goldmonkey.MermaidBuilder>
+</catalog>
