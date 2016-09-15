@@ -31,7 +31,7 @@ public class SampleApp extends SimpleApplication {
         };
         
         SampleApp app = new SampleApp(
-                new GoldMonkeyAppState(false, false, gmPath),
+                new GoldMonkeyAppState(false, false, "default", gmPath),
                 new MermaidAppState(),
                 new MainMenustate()
         );
